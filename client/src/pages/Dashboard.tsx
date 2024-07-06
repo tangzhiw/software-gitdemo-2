@@ -30,6 +30,7 @@ interface HydroData {
 //   temperature: number | null;
 //   averageTemperature?: number | null;
 // }
+// this is a Explanation
 
 interface MonthlyData {
   month: string;

@@ -22,7 +22,7 @@ db_name = os.getenv('DB_NAME', 'ocean_monitor')
 app.config["SQLALCHEMY_DATABASE_URI"] = f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
 db.init_app(app)
 
-
+#this is a Explanation
 @app.route("/api/login", methods=["POST"])
 def login():
     data = request.get_json()
