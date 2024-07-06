@@ -23,7 +23,7 @@ interface HydroData {
   total_nitrogen: number;
   site_condition?: string; // Optional property
 }
-
+// this is a Explanation
 // 定义接口来表示图表数据
 // interface ChartData {
 //   name: string;
